@@ -9,7 +9,7 @@ import torch.autograd as autograd
 
 from generator import Generator
 from discriminator import Discriminator
-from dataset import get_mnist_dataloaders
+from dataloader import get_mnist_dataloaders
 
 class Trainer():
 
